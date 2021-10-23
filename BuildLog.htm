@@ -1,0 +1,205 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: goSIP, Configuration: Deb_S60_22_WINS|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "c:\goSIP\goSIP\Deb_S60_22_WINS\BAT000001.bat" with contents
+[
+@echo off
+RCMake.exe "C:\goSIP\goSIP\goSIP.vcproj" S60_22 WINS UDEB
+if errorlevel 1 goto VCReportError
+goto VCEnd
+:VCReportError
+echo Project : error PRJ0019: A tool returned an error code from "Performing Pre-Build Event..."
+exit 1
+:VCEnd
+]
+Creating command line "c:\goSIP\goSIP\Deb_S60_22_WINS\BAT000001.bat"
+Creating temporary file "c:\goSIP\goSIP\Deb_S60_22_WINS\BAT000002.bat" with contents
+[
+@echo off
+RCmake.exe "C:\goSIP\goSIP\goSIP.vcproj" S60_22 WINS UDEB
+
+if errorlevel 1 goto VCReportError
+goto VCEnd
+:VCReportError
+echo Project : error PRJ0019: A tool returned an error code from "Performing Custom Build Step"
+exit 1
+:VCEnd
+]
+Creating command line "c:\goSIP\goSIP\Deb_S60_22_WINS\BAT000002.bat"
+Creating temporary file "c:\goSIP\goSIP\Deb_S60_22_WINS\BAT000003.bat" with contents
+[
+@echo off
+RCmake.exe "C:\goSIP\goSIP\goSIP.vcproj" S60_22 WINS UDEB
+
+if errorlevel 1 goto VCReportError
+goto VCEnd
+:VCReportError
+echo Project : error PRJ0019: A tool returned an error code from "Performing Custom Build Step"
+exit 1
+:VCEnd
+]
+Creating command line "c:\goSIP\goSIP\Deb_S60_22_WINS\BAT000003.bat"
+Creating temporary file "c:\goSIP\goSIP\Deb_S60_22_WINS\RSP000004.rsp" with contents
+[
+/Od /I "C:\goSIP\goSIP\inc" /I "C:\goSIP\goSIP\group" /I "c:\Symbian\8.0a\S60_2nd_FP2\\epoc32\include" /D "__DLL__" /D "__S60_V26__" /D "S60_V26" /D "__S60_2ND_FP2__" /D "S60_2ND_FP2" /D "_UNICODE" /D "__SYMBIAN32__" /D "__WINS__" /D "WINS" /D "__VC32__" /D "_WINDLL" /X /GF /FD /MDd /Zp4 /Fo"Deb_S60_22_WINS/" /Fd"Deb_S60_22_WINS/vc70.pdb" /FR"Deb_S60_22_WINS/" /c /Zi /TP  /QIfist
+.\group\gosip.uid.cpp
+.\src\goSIPPhonebookView.cpp
+.\src\goSIPPhonebookView2.cpp
+.\src\goSIPPhonebookContainer.cpp
+.\src\goSIPPhonebookContainer2.cpp
+.\src\goSIPMediaShareSearchContainer.cpp
+.\src\goSIPAddUserContainer.cpp
+.\src\goSIPMediaShareAppEngine.cpp
+.\src\goSIPMediaShareShareContainer.cpp
+.\src\goSIPGroupView.cpp
+.\src\goSIPMediaShareDownloadView.cpp
+.\src\goSIPAppointItemData.cpp
+.\src\goSIPMediaShareSearchView.cpp
+.\src\goSIPAddUserView.cpp
+.\src\goSIPApp.cpp
+.\src\goSIPAppointContainer.cpp
+.\src\goSIPChatContainer.cpp
+.\src\goSIPChatView.cpp
+.\src\goSIPMediaShareUploadContainer.cpp
+.\src\goSIPChatUserListView.cpp
+.\src\goSIPAppointListBox.cpp
+.\src\goSIPAppointView.cpp
+.\src\goSIPMediaShareUploadView.cpp
+.\src\goSIPAddUserItemData.cpp
+.\src\goSIPMediaShareShareView.cpp
+.\src\goSIPGroupContainer.cpp
+.\src\goSIPDocument.cpp
+.\src\goSIPMediaShareDownloadContainer.cpp
+.\src\goSIPAppUi.cpp
+.\src\goSIPAddUserListBox.cpp
+.\src\goSIPChatUserListContainer.cpp
+]
+Creating command line "cl.exe @c:\goSIP\goSIP\Deb_S60_22_WINS\RSP000004.rsp /nologo"
+Creating temporary file "c:\goSIP\goSIP\Deb_S60_22_WINS\RSP000005.rsp" with contents
+[
+/OUT:"c:\Symbian\8.0a\S60_2nd_FP2\\Epoc32\release\wins\udeb\z\\system\apps\goSIP\goSIP.app" /NOLOGO /LIBPATH:"c:\Symbian\8.0a\S60_2nd_FP2\\Epoc32\release\wins\udeb" /DLL /NODEFAULTLIB /INCLUDE:"?_E32Dll@@YGHPAXI0@Z" /DEBUG /ASSEMBLYDEBUG /PDB:"./goSIP.pdb" /SUBSYSTEM:WINDOWS /ENTRY:"_E32Dll" pbkview.lib pbkeng.lib commonengine.lib cntmodel.lib CommonDialogs.lib PlatformEnv.lib MGFetch.lib efsrv.lib avkon.lib eikcoctl.lib eikcore.lib cone.lib apparc.lib euser.lib bafl.lib eikctl.lib estor.lib edll.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib
+.\Deb_S60_22_WINS\goSIPChatUserListContainer.obj
+.\Deb_S60_22_WINS\goSIPAddUserListBox.obj
+.\Deb_S60_22_WINS\goSIPAppUi.obj
+.\Deb_S60_22_WINS\goSIPMediaShareDownloadContainer.obj
+.\Deb_S60_22_WINS\goSIPDocument.obj
+.\Deb_S60_22_WINS\goSIPGroupContainer.obj
+.\Deb_S60_22_WINS\goSIPMediaShareShareView.obj
+.\Deb_S60_22_WINS\goSIPAddUserItemData.obj
+.\Deb_S60_22_WINS\goSIPMediaShareUploadView.obj
+.\Deb_S60_22_WINS\goSIPAppointView.obj
+.\Deb_S60_22_WINS\goSIPAppointListBox.obj
+.\Deb_S60_22_WINS\goSIPChatUserListView.obj
+.\Deb_S60_22_WINS\goSIPMediaShareUploadContainer.obj
+.\Deb_S60_22_WINS\goSIPChatView.obj
+.\Deb_S60_22_WINS\goSIPChatContainer.obj
+.\Deb_S60_22_WINS\goSIPAppointContainer.obj
+.\Deb_S60_22_WINS\goSIPApp.obj
+.\Deb_S60_22_WINS\goSIPAddUserView.obj
+.\Deb_S60_22_WINS\goSIPMediaShareSearchView.obj
+.\Deb_S60_22_WINS\goSIPAppointItemData.obj
+.\Deb_S60_22_WINS\goSIPMediaShareDownloadView.obj
+.\Deb_S60_22_WINS\goSIPGroupView.obj
+.\Deb_S60_22_WINS\goSIPMediaShareShareContainer.obj
+.\Deb_S60_22_WINS\goSIPMediaShareAppEngine.obj
+.\Deb_S60_22_WINS\goSIPAddUserContainer.obj
+.\Deb_S60_22_WINS\goSIPMediaShareSearchContainer.obj
+.\Deb_S60_22_WINS\goSIPPhonebookContainer2.obj
+.\Deb_S60_22_WINS\goSIPPhonebookContainer.obj
+.\Deb_S60_22_WINS\goSIPPhonebookView2.obj
+.\Deb_S60_22_WINS\goSIPPhonebookView.obj
+.\Deb_S60_22_WINS\gosip.uid.obj
+]
+Creating command line "link.exe @c:\goSIP\goSIP\Deb_S60_22_WINS\RSP000005.rsp"
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Performing Pre-Build Event...
+* Current build configuration: WINS UDEB
+Compiling resources...
+epocroot = \Symbian\8.0a\S60_2nd_FP2\
+* c:\Symbian\8.0a\S60_2nd_FP2\epoc32\gcc\bin\cpp.exe -undef -C -I C:\goSIP\goSIP\inc -I C:\goSIP\goSIP\group -I c:\Symbian\8.0a\S60_2nd_FP2\\epoc32\include -I c:\Symbian\8.0a\S60_2nd_FP2\\Epoc32\include -DLANGUAGE_SC -D_UNICODE -D__S60_V26__ -DS60_V26 -D__S60_2ND_FP2__ -DS60_2ND_FP2 -D_UNICODE -D__SYMBIAN32__ -D__WINS__ -DWINS -D__VC32__ -D__DLL__ C:\goSIP\goSIP\data\goSIP_caption.rss -o C:\goSIP\goSIP\data\goSIP_caption.rss.I
+epocroot = \Symbian\8.0a\S60_2nd_FP2\
+* c:\Symbian\8.0a\S60_2nd_FP2\epoc32\tools\rcomp.exe -u -oc:\Symbian\8.0a\S60_2nd_FP2\Epoc32\release\wins\UDEB\z\system\apps\goSIP\goSIP_caption.rSC -hC:\goSIP\goSIP\inc\goSIP_caption.rsg.new -sC:\goSIP\goSIP\data\goSIP_caption.rss.I -iC:\goSIP\goSIP\data\goSIP_caption.rss
+* Deleting file C:\goSIP\goSIP\inc\goSIP_caption.rsg.new
+epocroot = \Symbian\8.0a\S60_2nd_FP2\
+* c:\Symbian\8.0a\S60_2nd_FP2\epoc32\gcc\bin\cpp.exe -undef -C -I C:\goSIP\goSIP\inc -I C:\goSIP\goSIP\group -I c:\Symbian\8.0a\S60_2nd_FP2\\epoc32\include -I c:\Symbian\8.0a\S60_2nd_FP2\\Epoc32\include -DLANGUAGE_SC -D_UNICODE -D__S60_V26__ -DS60_V26 -D__S60_2ND_FP2__ -DS60_2ND_FP2 -D_UNICODE -D__SYMBIAN32__ -D__WINS__ -DWINS -D__VC32__ -D__DLL__ C:\goSIP\goSIP\data\goSIP.rss -o C:\goSIP\goSIP\data\goSIP.rss.I
+epocroot = \Symbian\8.0a\S60_2nd_FP2\
+* c:\Symbian\8.0a\S60_2nd_FP2\epoc32\tools\rcomp.exe -u -oc:\Symbian\8.0a\S60_2nd_FP2\Epoc32\release\wins\UDEB\z\system\apps\goSIP\goSIP.rSC -hC:\goSIP\goSIP\inc\goSIP.rsg.new -sC:\goSIP\goSIP\data\goSIP.rss.I -iC:\goSIP\goSIP\data\goSIP.rss
+* Deleting file C:\goSIP\goSIP\inc\goSIP.rsg.new
+Generating AIF file.
+File C:\goSIP\goSIP\aif\goSIPaif.mbm up-to-date, not converted.
+File c:\Symbian\8.0a\S60_2nd_FP2\Epoc32\release\wins\UDEB\z\system\apps\goSIP\goSIP.aif up-to-date, not compiled.
+Performing Custom Build Step
+* Current build configuration: WINS UDEB
+Compiling resources...
+File c:\Symbian\8.0a\S60_2nd_FP2\Epoc32\release\wins\UDEB\z\system\apps\goSIP\goSIP_caption.rSC up-to-date, not rebuilt.
+File c:\Symbian\8.0a\S60_2nd_FP2\Epoc32\release\wins\UDEB\z\system\apps\goSIP\goSIP.rSC up-to-date, not rebuilt.
+Generating AIF file.
+File C:\goSIP\goSIP\aif\goSIPaif.mbm up-to-date, not converted.
+File c:\Symbian\8.0a\S60_2nd_FP2\Epoc32\release\wins\UDEB\z\system\apps\goSIP\goSIP.aif up-to-date, not compiled.
+Performing Custom Build Step
+* Current build configuration: WINS UDEB
+Compiling resources...
+File c:\Symbian\8.0a\S60_2nd_FP2\Epoc32\release\wins\UDEB\z\system\apps\goSIP\goSIP_caption.rSC up-to-date, not rebuilt.
+File c:\Symbian\8.0a\S60_2nd_FP2\Epoc32\release\wins\UDEB\z\system\apps\goSIP\goSIP.rSC up-to-date, not rebuilt.
+Generating AIF file.
+File C:\goSIP\goSIP\aif\goSIPaif.mbm up-to-date, not converted.
+File c:\Symbian\8.0a\S60_2nd_FP2\Epoc32\release\wins\UDEB\z\system\apps\goSIP\goSIP.aif up-to-date, not compiled.
+Compiling...
+gosip.uid.cpp
+goSIPPhonebookView.cpp
+goSIPPhonebookView2.cpp
+goSIPPhonebookContainer.cpp
+goSIPPhonebookContainer2.cpp
+goSIPMediaShareSearchContainer.cpp
+goSIPAddUserContainer.cpp
+goSIPMediaShareAppEngine.cpp
+goSIPMediaShareShareContainer.cpp
+goSIPGroupView.cpp
+goSIPMediaShareDownloadView.cpp
+goSIPAppointItemData.cpp
+goSIPMediaShareSearchView.cpp
+goSIPAddUserView.cpp
+goSIPApp.cpp
+goSIPAppointContainer.cpp
+goSIPChatContainer.cpp
+goSIPChatView.cpp
+goSIPMediaShareUploadContainer.cpp
+goSIPChatUserListView.cpp
+Generating Code...
+Compiling...
+goSIPAppointListBox.cpp
+goSIPAppointView.cpp
+goSIPMediaShareUploadView.cpp
+goSIPAddUserItemData.cpp
+goSIPMediaShareShareView.cpp
+goSIPGroupContainer.cpp
+goSIPDocument.cpp
+goSIPMediaShareDownloadContainer.cpp
+goSIPAppUi.cpp
+goSIPAddUserListBox.cpp
+goSIPChatUserListContainer.cpp
+Generating Code...
+Linking...
+LINK : LNK6004: c:\Symbian\8.0a\S60_2nd_FP2\\Epoc32\release\wins\udeb\z\\system\apps\goSIP\goSIP.app not found or not built by the last incremental link; performing full link
+   Creating library c:\Symbian\8.0a\S60_2nd_FP2\\Epoc32\release\wins\udeb\z\\system\apps\goSIP\goSIP.lib and object c:\Symbian\8.0a\S60_2nd_FP2\\Epoc32\release\wins\udeb\z\\system\apps\goSIP\goSIP.exp
+edll.lib(UP_DLL.obj) : warning LNK4210: .CRT section exists; there may be unhandled static initializers or terminators
+goSIPMediaShareSearchContainer.obj : warning LNK4210: .CRT section exists; there may be unhandled static initializers or terminators
+edll.lib(UP_DLL.obj) : warning LNK4210: .CRT section exists; there may be unhandled static initializers or terminators
+edll.lib(UP_DLL.obj) : warning LNK4099: PDB 'edll.pdb' was not found with 'c:\Symbian\8.0a\S60_2nd_FP2\\Epoc32\release\wins\udeb\edll.lib' or at 'c:\goSIP\goSIP\edll.pdb'; linking object as if no debug info
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://c:\goSIP\goSIP\\BuildLog.htm"
+goSIP - 0 error(s), 4 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

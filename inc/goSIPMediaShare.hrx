@@ -1,0 +1,15 @@
+enum TFileListDirectories
+    {
+    ESoundList = 1,
+	EImageList,
+	EVideoList,
+	EFileListDirNoChange
+    };
+
+enum TFileListSizeDate
+    {
+    EFileListSize = 1,
+	EFileListDate,
+	EFileListToggle,
+	EFileListSizeDateNoChange
+    };

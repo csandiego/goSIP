@@ -1,0 +1,21 @@
+/*
+============================================================================
+ Name        : goSIPaif.rss
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : RSS for creating the aif file for goSIP.
+============================================================================
+*/
+
+#include <aiftool.rh>
+
+RESOURCE AIF_DATA
+    {
+    app_uid=0x06e4f6d4;
+    num_icons=2;
+    embeddability=KAppNotEmbeddable;
+    newfile=KAppDoesNotSupportNewFile;
+    }
+
+

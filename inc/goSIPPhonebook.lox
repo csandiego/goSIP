@@ -1,0 +1,141 @@
+// view1 menu lists
+#define call_number "Call"
+
+#define message_number "Send message"
+
+#define save_number "Copy to Phonebook"
+
+//view2 menu lists
+#define share_marked "Share"
+
+#define unshare_marked "Un-share"
+
+#define marking "Mark/Unmark All"
+
+//d:Name of the view 1 tab.
+//d:
+//l:
+//
+
+//d:Name of the view 2 tab.
+//d:
+//l:
+//
+
+
+
+//unchecked loc files from contacts.loc
+// LOCALISATION STRINGS
+
+// Caption strings for app
+#define qtn_contacts_caption_string "Contacts DB"
+#define qtn_contacts_short_caption_string "ContactsDB"
+
+
+// Message strings
+
+//d: Contact database is already created
+#define qtn_contacts_db_already_exists "Contact Database already exists"
+
+//d: Contact database does not opened
+#define qtn_contacts_db_no_db "No ContactsDb"
+
+//d: Default database deleting
+#define qtn_contacts_cannot_delete_def_db "Cannot delete default contact database"
+
+//d: Cannot delete selected contact database
+#define qtn_contacts_cannot_delete_db "Cannot delete contact database"
+
+//d: Contact database not found 
+#define qtn_contacts_db_not_found "Contact database not found"
+
+//d: Database open
+#define qtn_contacts_no_db_selected "Please open database"
+
+//d: Open created database message
+#define qtn_contacts_open_created_db "Please open created database"
+
+//d: Database creating query
+#define qtn_contacts_create_db_message "Write new db name"
+
+//d: Database deleting query
+#define qtn_contacts_delete_db_query_message "Delete created db?"
+
+//d: Contact deleting query
+#define qtn_contacts_delete_contact_message "Delete selected contact?"
+
+//d: Contact group deleting query
+#define qtn_contacts_delete_group_message "Delete selected contact group?"
+
+//d: Contact deleting query
+#define qtn_contacts_con_label_text "Delete selected contact?"
+
+//d: Contact group creating query
+#define qtn_contacts_create_group_message "Write new contact group name:"
+
+//d: Contact template creating query
+#define qtn_contacts_create_template_message "Write new contact template name:"
+
+//d: Contact no selected
+#define qtn_contacts_no_contact_selected "No contact selected"
+
+//d: Created contact database opened title
+#define qtn_contacts_created_db "Created db"
+
+//d: Default contact database opened title
+#define qtn_contacts_default_db "Default db"
+
+//d: No contact database opened title
+#define qtn_contacts_no_db "Contacts"
+
+// Menu option strings
+
+//d: File
+#define qtn_contacts_file "File"
+//d: Open created contact database
+#define qtn_contacts_select_db "Created database"
+//d: Open default contact database
+#define qtn_contacts_open_default_db "Default database"
+//d: Create new database
+#define qtn_contacts_create_db "New database"
+//d: Delete created database
+#define qtn_contacts_delete_db "Created database"
+//d: Show Contacts
+#define qtn_contacts_show_contacts "Contacts"
+//d: Show contact groups
+#define qtn_contacts_show_groups "Groups"
+//d: Edit or view a contact
+#define qtn_contacts_edit_contact "Edit/View"
+//d: Create a new contact
+#define qtn_contacts_create_contact "Create"
+//d: Add contact to contact group
+#define qtn_contacts_add_to_group "Add to contact group"
+//d: Delete the contact
+#define qtn_contacts_delete_contact "Delete"
+//d: Create sub menu option string
+#define qtn_contacts_create_group "Create"
+//d: Delete sub menu string
+#define qtn_contacts_delete_group "Delete"
+//d: Create new contact template
+#define qtn_contacts_create_template "Contact template"
+//d: Contact groups sub menu string
+#define qtn_contacts_edit_group "Contact groups"
+//d: Contacts sub menu string
+#define qtn_contacts_contacts "Contacts"
+//d: Exit sub menu string
+#define qtn_contacts_exit "Exit"
+//d: Back sub menu string
+#define qtn_contacts_back "Back"
+//d: Open sub menu string
+#define qtn_contacts_open "Open"
+//d: Create sub menu string
+#define qtn_contacts_create "Create"
+//d: Delete sub menu string
+#define qtn_contacts_delete "Delete"
+//d: Show sub menu string
+#define qtn_contacts_show "Show"
+//d: Edit sub menu string
+#define qtn_contacts_edit "Edit"
+
+
+

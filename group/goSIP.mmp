@@ -1,0 +1,94 @@
+/*
+============================================================================
+ Name        : goSIP.mmp
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Project specification file for goSIP
+============================================================================
+Please edit the mmp statements to match your project configuration.
+For more information on the mmp file syntax see SDK help: 
+ Developer Library  Tools and Utilities  Build tools reference  mmp file syntax
+Note! C++ source and header files, resource files and libraries from the
+Visual Studio project are added automatically after updating this file
+using the Update MMP functionality.
+Note! Comments outside this first comment will be removed after invoking
+MMP update. For that reason here's the original skeleton for reference:
+----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----8<----
+TARGET goSIP.app				// TODO: Set correct target name
+TARGETTYPE app						// TODO: Set correct target type
+UID 0x100039CE 0x06e4f6d4			// TODO: Target type and application UIDs
+// For UID information please look at project_name.uid.cpp if one exists
+TARGETPATH \system\apps\goSIP	// TODO: Set correct target path
+LANG SC
+// C++ source and header files, resource files and libraries from the
+// Visual Studio project are added here automatically after updating
+// this file using the Update MMP functionality.
+//TODO (optional): Set correct application information file description
+AIF goSIP.aif ..\aif goSIPaif.rss c8 context_pane_icon.bmp context_pane_icon_mask.bmp list_icon.bmp list_icon_mask.bmp
+---->8---->8---->8---->8---->8---->8---->8---->8---->8---->8---->8---->8----
+*/
+TARGET                                  goSIP.app 
+TARGETTYPE                              app 
+UID                                     0x100039CE 0x06e4f6d4 
+TARGETPATH                              \system\apps\goSIP 
+LANG                                    SC 
+AIF                                     goSIP.aif ..\aif goSIPaif.rss c8 context_pane_icon.bmp context_pane_icon_mask.bmp list_icon.bmp list_icon_mask.bmp 
+LIBRARY                                 pbkview.lib 
+LIBRARY                                 pbkeng.lib 
+LIBRARY                                 commonengine.lib 
+LIBRARY                                 cntmodel.lib 
+LIBRARY                                 CommonDialogs.lib 
+LIBRARY                                 PlatformEnv.lib 
+LIBRARY                                 MGFetch.lib 
+LIBRARY                                 efsrv.lib 
+LIBRARY                                 avkon.lib 
+LIBRARY                                 eikcoctl.lib 
+LIBRARY                                 eikcore.lib 
+LIBRARY                                 cone.lib 
+LIBRARY                                 apparc.lib 
+LIBRARY                                 euser.lib 
+LIBRARY                                 bafl.lib 
+LIBRARY                                 eikctl.lib 
+LIBRARY                                 estor.lib 
+SOURCEPATH                              ..\data 
+RESOURCE                                goSIP_caption.rss 
+RESOURCE                                goSIP.rss 
+
+SOURCEPATH                              ..\src 
+/* [+] */ SOURCE                        goSIPGroup.cpp 
+SOURCE                                  goSIPUser.cpp 
+SOURCE                                  goSIPPhonebookView.cpp 
+SOURCE                                  goSIPPhonebookView2.cpp 
+SOURCE                                  goSIPPhonebookContainer.cpp 
+SOURCE                                  goSIPPhonebookContainer2.cpp 
+SOURCE                                  goSIPChatView.cpp 
+SOURCE                                  goSIPChatUserListView.cpp 
+SOURCE                                  goSIPChatUserListContainer.cpp 
+SOURCE                                  goSIPChatContainer.cpp 
+SOURCE                                  goSIPMediaShareUploadView.cpp 
+SOURCE                                  goSIPMediaShareUploadContainer.cpp 
+SOURCE                                  goSIPMediaShareShareView.cpp 
+SOURCE                                  goSIPMediaShareShareContainer.cpp 
+SOURCE                                  goSIPMediaShareSearchView.cpp 
+SOURCE                                  goSIPMediaShareSearchContainer.cpp 
+SOURCE                                  goSIPMediaShareDownloadView.cpp 
+SOURCE                                  goSIPMediaShareDownloadContainer.cpp 
+SOURCE                                  goSIPMediaShareAppEngine.cpp 
+SOURCE                                  goSIPAppointView.cpp 
+SOURCE                                  goSIPAppointListBox.cpp 
+SOURCE                                  goSIPAppointItemData.cpp 
+SOURCE                                  goSIPAppointContainer.cpp 
+SOURCE                                  goSIPAddUserView.cpp 
+SOURCE                                  goSIPAddUserListBox.cpp 
+SOURCE                                  goSIPAddUserItemData.cpp 
+SOURCE                                  goSIPAddUserContainer.cpp 
+SOURCE                                  goSIPGroupView.cpp 
+SOURCE                                  goSIPDocument.cpp 
+SOURCE                                  goSIPGroupContainer.cpp 
+SOURCE                                  goSIPAppUi.cpp 
+SOURCE                                  goSIPApp.cpp 
+
+USERINCLUDE                             ..\inc 
+USERINCLUDE                             . 
+SYSTEMINCLUDE                           \epoc32\include 

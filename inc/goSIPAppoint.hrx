@@ -1,0 +1,21 @@
+enum TgoSIPAppointSettings
+    {
+    EAppointSettingSubj = 1,
+    EAppointSettingLoc,
+    EAppointSettingDate,
+    EAppointSettingTime
+    };
+
+enum TgoSIPAppointView1
+	{
+	EAppointEmptyOutline = 1,
+	EAppointAddDTime,
+	EAppointDelDTime,
+	EAppointDisplayUL,
+	EAppointStartReq,
+	EAppointCmdExit,
+	EAppointFormView1,
+	EAppointFormView2,
+	EAppointFormView3
+	};    
+

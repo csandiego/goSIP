@@ -1,0 +1,7 @@
+    EgoSIPChatCmdInviteUsers,
+    EgoSIPChatCmdAddUserToGroup,
+    EgoSIPChatCmdKickUser,
+    EgoSIPChatCmdWriteMessage,
+    EgoSIPChatCmdSave,
+    EgoSIPChatCmdDisplayUserList,
+    EgoSIPChatCmdClose

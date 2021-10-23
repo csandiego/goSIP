@@ -1,0 +1,27 @@
+#define qtn_viewgroup_tab "Groups"
+
+// my menuitem names for r_viewgroupitem
+#define qtn_viewgroup_option_chat               "Chat"
+#define qtn_viewgroup_option_setappointment     "Set appointment"
+#define qtn_viewgroup_option_searchphonebooks   "Search phonebooks"
+#define qtn_viewgroup_option_searchfiles        "Search files"
+#define qtn_viewgroup_option_adduser            "Add user to group"
+#define qtn_viewgroup_option_moveuser           "Move user to group"
+#define qtn_viewgroup_option_deleteuser         "Delete user"
+#define qtn_viewgroup_option_sharephonebook     "Share my phonebook"
+#define qtn_viewgroup_option_sharefiles         "Share my files"
+#define qtn_viewgroup_option_goonline           "Go online"
+#define qtn_viewgroup_option_gooffline          "Go offline"
+#define qtn_viewgroup_option_options            "Options"
+#define qtn_viewgroup_option_aboutgosip         "About goSIP"
+
+#define qtn_viewadduser_option_request          "Request"
+#define qtn_viewadduser_option_close            "Close"
+
+#define qtn_settinglistadduser_item_sipaddress  "SIP address of user(s):"
+#define qtn_settinglistadduser_item_addtogroup  "Add to group:"
+
+#define qtn_settingpageadduser_label_sipaddress "SIP address of user(s):"
+#define qtn_settingpageadduser_label_addtogroup "Add to group:"
+
+#define qtn_gosip_adduser_edwin_text "Add User"

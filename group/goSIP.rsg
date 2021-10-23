@@ -1,0 +1,14 @@
+#define R_GOSIP_HOTKEYS                           0x8f6f004
+#define R_GOSIP_VIEW1                             0x8f6f005
+#define R_GOSIP_MENUBAR_VIEW1                     0x8f6f006
+#define R_GOSIP_VIEW1_MENU                        0x8f6f007
+#define R_GOSIP_VIEW2                             0x8f6f008
+#define R_GOSIP_MENUBAR_VIEW2                     0x8f6f009
+#define R_GOSIP_VIEW2_MENU                        0x8f6f00a
+#define R_GOSIP_APP_MENU                          0x8f6f00b
+#define R_GOSIP_STATUS_PANE                       0x8f6f00c
+#define R_GOSIP_NAVI_DECORATOR                    0x8f6f00d
+#define R_GOSIP_VIEWGROUP                         0x8f6f00e
+#define R_GOSIP_MENUBAR_VIEWGROUP                 0x8f6f00f
+#define R_GOSIP_VIEWGROUP_MENU                    0x8f6f010
+#define R_DYNAMICLIST_LIST_BOX                    0x8f6f011

@@ -1,0 +1,9 @@
+enum TContactsEdwinConstants
+	{
+	EContactsEdwinWidth = 5,
+	EContactsEdwinLines = 5,
+	EContactsEdwinMaxLength = 128,
+	EContactsEdwinShortMaxLength = 8,
+	EContactsEdwinBaseLineDelta = 21
+	};
+

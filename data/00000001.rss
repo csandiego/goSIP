@@ -1,0 +1,27 @@
+#include <RegistryInfo.rh>
+
+RESOURCE REGISTRY_INFO theInfo
+    {
+    // UID for the DLL
+    dll_uid = 0x00000001;
+    // Declare array of interface info
+    interfaces = 
+        {
+        INTERFACE_INFO
+            {
+            // UID of interface that is implemented
+            interface_uid = 0x102010DD;
+            implementations = 
+                {
+                IMPLEMENTATION_INFO
+                    {
+                    implementation_uid = 0x00000001;
+                    version_no = 1;
+                    // APPLICATION UID: Must match to the one passed to CSIP::NewL.	
+                    default_data = "12345678";  
+                    opaque_data = "<SIP_CLIENT ALLOW_STARTING=\"YES\"><SIP_HEADERS><ACCEPT value=\"ty/pe\"/></SIP_HEADERS></SIP_CLIENT>";
+                    }
+                };
+            }
+        };
+    }

@@ -1,0 +1,27 @@
+//for set appointment view
+#define qtn_appoint1_add_dtime "Add alt date/time"
+#define qtn_appoint1_del_dtime "Delete alt date/time"
+#define qtn_appoint1_display_ul "Display user list"
+#define qtn_appoint1_start_req "Start request"
+#define qtn_appoint1_exit "Close"
+//navi label
+#define qtn_appoint1_navi_waiting "Waiting for confirmation"
+//form labels
+#define qtn_appoint1_subject_title "Subject:"
+#define qtn_appoint1_loc_title "Location:"
+#define qtn_appoint1_date_title "Date:"
+#define qtn_appoint1_time_title "Time:"
+#define qtn_appoint1_altdtime_title "Alt date/time:"
+
+#define qtn_gosip_appoint_edwin_text "Hello"
+#define qtn_gosip_appoint_view1_label "Set Appointment"
+#define qtn_gosip_appoint_view2_label "Confirm Appointment"
+#define qtn_gosip_appoint_view3_label "User List"
+//end for appointment view
+
+
+#define qtn_gosip_appoint_view1_subject "Subject"
+#define EGOSIPDlgCtrlIdEdwin01 100
+#define GOSIP_EDWIN_WIDTH 10
+#define GOSIP_EDWIN_LINES 1
+#define EGOSIPEdwinMaxLength 20

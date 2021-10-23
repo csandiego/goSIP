@@ -1,0 +1,5 @@
+EgoSIPCmdAddUserOptions,
+EgoSIPCmdAddUserRequest,
+EgoSIPCmdAddUserClose,
+EgoSIPSettingItemAddUserSIPAddress,
+EgoSIPSettingItemAddUserAddToGroup

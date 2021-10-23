@@ -1,0 +1,81 @@
+/*
+============================================================================
+ Name        : goSIP resource header file goSIP.hrh
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : This file contains declarations for constants of goSIP.
+               The file can be included in C++ or resource file.
+============================================================================
+*/
+
+#ifndef GOSIP_HRH
+#define GOSIP_HRH
+
+enum TgoSIPCommandIds
+    {
+    EgoSIPCmdAppTest = 1,
+    EgoSIPCmdAppChat,
+    EgoSIPCmdAppSetAppointment,
+    EgoSIPCmdAppSearchPhonebooks,
+    EgoSIPCmdAppSearchFiles,
+    EgoSIPCmdAppAddUser,
+    EgoSIPCmdAppMoveUser,
+    EgoSIPCmdAppDeleteUser,
+    EgoSIPCmdAppSharePhonebook,
+    EgoSIPCmdAppShareFiles,
+    EgoSIPCmdAppGoOnline,
+    EgoSIPCmdAppGoOffline,
+    EgoSIPCmdAppOptions,
+    EgoSIPCmdAppAboutGoSIP,
+    EgoSIPCmdAppChatClose,
+    EgoSIPCmdAppSetAppointmentClose,
+    EgoSIPCmdAppSearchPhonebooksClose,
+    EgoSIPCmdAppSearchFilesClose,
+    EgoSIPCmdAppAddUserClose,
+    EgoSIPCmdAppMoveUserClose,
+    EgoSIPCmdAppDeleteUserClose,
+    EgoSIPCmdAppSharePhonebookClose,
+    EgoSIPCmdAppShareFilesClose,
+    EgoSIPCmdAppGoOnlineClose,
+    EgoSIPCmdAppGoOfflineClose,
+    EgoSIPCmdAppOptionsClose,
+    EgoSIPCmdAppAboutGoSIPClose,
+    EgoSIPCmdAppUploadClose,
+    EgoSIPCmdAppDownloadClose,
+    EgoSIPCmdAppChatUserListClose, 
+    EgoSIPCmdUserListViewClose,
+    #include "goSIPAdminCommand.enum"  
+    ,
+    #include "goSIPMediaShareCommand.enum"
+    ,
+    #include "goSIPChatCommand.enum"
+    ,
+    #include "goSIPPhoneBookCommand.enum"
+    };
+    
+enum TgoSIPTabViewId
+    {
+    EgoSIPGroupTab = 1,
+    EgoSIPSharePhonebookTab,
+    EgoSIPShareFilesTab,
+    EgoSIPGoOnlineTab,
+    EgoSIPGoOfflineTab,
+    EgoSIPOptionsTab,
+    EgoSIPAboutGoSIPTab,
+    #include "goSIPAdminTabView.enum"
+    ,
+    #include "goSIPChatTabView.enum"
+    ,
+    #include "goSIPMediaShareTabView.enum"
+    ,
+    #include "goSIPPhonebookTabView.enum"
+    ,
+    #include "goSIPAppointTabView.enum"
+    };
+
+#include "goSIPAppoint.hrx"
+#include "goSIPMediaShare.hrx"
+#include "goSIPPhonebook.hrx"
+
+#endif      // GOSIP_HRH

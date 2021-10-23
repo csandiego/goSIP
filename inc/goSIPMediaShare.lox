@@ -1,0 +1,36 @@
+//CAPTION STRINGS
+#define qtn_app_caption_string "goSIP"
+#define qtn_app_short_caption_string "goSIP"
+
+//SEARCH VIEW
+#define qtn_search_view_option_search "New Search"
+#define qtn_search_view_option_confirm "Download"
+#define qtn_aknexquery_data_label_text "Enter file to be searched: "
+
+//SHARE VIEW
+#define qtn_share_view_option_share "Share new file"
+#define qtn_share_view_option_unshare "Unshare file"
+#define qtn_aknexquery_con_label_text "Continue download?"
+
+//DOWNLOAD VIEW
+#define qtn_download_view_option_cancel "Cancel download"
+
+//UPLOAD VIEW
+#define qtn_upload_view_option_cancel "Cancel upload"
+
+//MEMORY CHOOSER
+#define qtn_appl_select_memory "Select Memory:"
+#define qtn_appl_phone_memory "Phone Memory"
+#define qtn_appl_memory_card "Memory Card"
+
+//DIRECTORY CHOOSER
+#define qtn_appl_select_directory " "
+#define qtn_appl_images "Images"
+#define qtn_appl_sounds "Sounds"
+#define qtn_appl_videos "Videos"
+
+//TABS
+#define qtn_search_view_tab "Search Files"
+#define qtn_share_view_tab "Share Files"
+#define qtn_download_view_tab "Download"
+#define qtn_upload_view_tab "Upload"

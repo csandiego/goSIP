@@ -1,0 +1,18 @@
+/*
+============================================================================
+ Name        : goSIP_caption.rss
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Caption file for goSIP.
+============================================================================
+*/
+
+#include "goSIP.loc"
+#include <apcaptionfile.rh>
+
+RESOURCE CAPTION_DATA
+{
+    caption = qtn_app_caption_string;
+    shortcaption = qtn_app_short_caption_string;
+}
